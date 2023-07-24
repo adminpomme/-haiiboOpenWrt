@@ -14,8 +14,8 @@ on:
     - cron: 0 19 * * *
 
 env:
-  SOURCE_URL: https://github.com/coolsnowwolf/lede
-  SOURCE_BRANCH: master
+  SOURCE_URL: https://github.com/openwrt/openwrt
+  SOURCE_BRANCH: openwrt-22.03.5
   CONFIG_FILE: configs/x86_64-mini.config
   DIY_SCRIPT: diy-mini.sh
   CLASH_KERNEL: amd64
